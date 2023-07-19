@@ -1,0 +1,41 @@
+.users-container {
+    display: flex;
+    height: 100vh;
+    background-image: url('../../../../public/BGimage.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .users-table-container {
+    width: 50%;
+    background-color: #f1f1f1; /* Replace with your desired light color */
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .users-table {
+    width: 100%;
+  }
+  
+  .users-table th {
+    font-weight: bold;
+  }
+  
+  .users-table td {
+    padding: 8px;
+  }
+  
+  .users-table button {
+    margin-right: 5px;
+  }
+  .users-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .logout-button{
+    float: right;
+
+  }

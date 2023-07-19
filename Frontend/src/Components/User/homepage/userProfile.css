@@ -1,0 +1,50 @@
+/* userProfile.css */
+.profile-container {
+  max-width: 500px;
+  margin-top: 8%;
+  margin-left: 35%;
+  padding: 20px;
+  background-color: #a8e5e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  text-align: center;
+  color: black;
+}
+
+.profile-picture {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-picture .placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px; /* Set the same width as the image */
+  height: 150px; /* Set the same height as the image */
+  border-radius: 50%; /* Set a border-radius of 50% to make it round */
+  border: 2px dashed #ccc;
+  font-size: 16px;
+  color: #555;
+  background-size: cover; /* Scale the background image to cover the entire div */
+  background-position: center; /* Center the background image */
+}
+
+/* Optional: You can adjust the padding inside the div to control the cropping */
+.profile-picture .placeholder {
+  padding: 10px;
+}
